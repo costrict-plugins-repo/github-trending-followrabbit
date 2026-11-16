@@ -1,0 +1,47 @@
+{
+  "name": "followrabbit",
+  "version": "1.5.1",
+  "description": "Cloud cost optimization for GCP. Check BigQuery SQL for cost problems and set the optimal pricing model on scheduled queries using the followrabbit CLI.",
+  "author": {
+    "name": "Rabbit",
+    "email": "support@followrabbit.ai",
+    "url": "https://subscriptions.agentic.followrabbit.ai"
+  },
+  "homepage": "https://subscriptions.agentic.followrabbit.ai",
+  "repository": "https://github.com/followrabbit-ai/awesome-rabbit",
+  "license": "MIT",
+  "keywords": [
+    "cloud",
+    "cost-optimization",
+    "terraform",
+    "gcp",
+    "google-cloud",
+    "finops",
+    "infrastructure",
+    "bigquery",
+    "gke",
+    "codex-plugin"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "FollowRabbit Cost Optimization",
+    "shortDescription": "Optimal pricing model for BigQuery scheduled queries",
+    "longDescription": "FollowRabbit sets the optimal compute pricing model, slot reservation or on-demand, on every BigQuery scheduled query in a GCP project. Codex drives the followrabbit CLI through recommend, confirm, apply and verify, and can revert the change.",
+    "developerName": "Rabbit",
+    "category": "Development & Workflow",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://followrabbit.ai",
+    "privacyPolicyURL": "https://followrabbit.ai/en/rabbit-privacy-policy",
+    "termsOfServiceURL": "https://followrabbit.ai/en/rabbit-general-terms-and-conditions",
+    "defaultPrompt": [
+      "Optimize the pricing model on my BigQuery scheduled queries.",
+      "Should my scheduled queries run on a reservation or on-demand?",
+      "Show me which scheduled queries Rabbit is managing in this project."
+    ],
+    "brandColor": "#F97316",
+    "logo": "./.codex-plugin/assets/logo.png"
+  }
+}

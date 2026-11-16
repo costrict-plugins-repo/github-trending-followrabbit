@@ -1,0 +1,45 @@
+{
+  "name": "bq-backup-and-restore",
+  "version": "0.1.0",
+  "description": "A command-line tool for creating and restoring backups of BigQuery datasets",
+  "main": "build/index.js",
+  "bin": {
+    "bq-backup-and-restore": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "watch": "tsc -w",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint . --max-warnings 0"
+  },
+  "keywords": [
+    "bigquery",
+    "backup",
+    "restore",
+    "snapshot",
+    "google-cloud",
+    "data-engineering"
+  ],
+  "author": "Rabbit Team",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=25.0.0"
+  },
+  "dependencies": {
+    "@google-cloud/bigquery": "^9.0.3",
+    "commander": "^15.0.0",
+    "winston": "^3.19.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.1",
+    "@typescript-eslint/eslint-plugin": "^8.69.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "eslint": "^10.10.0",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.9.6",
+    "typescript": "^7.0.2"
+  }
+}
+
