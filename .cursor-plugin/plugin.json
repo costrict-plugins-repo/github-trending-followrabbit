@@ -1,0 +1,25 @@
+{
+  "name": "followrabbit",
+  "displayName": "FollowRabbit Cost Optimization",
+  "version": "1.6.0",
+  "description": "Cloud cost optimization for GCP. Check BigQuery SQL for cost problems and set the optimal pricing model on scheduled queries using the followrabbit CLI.",
+  "author": {
+    "name": "Rabbit",
+    "email": "support@followrabbit.ai",
+    "url": "https://followrabbit.ai"
+  },
+  "homepage": "https://github.com/followrabbit-ai/awesome-rabbit#get-access",
+  "keywords": [
+    "cloud",
+    "cost-optimization",
+    "terraform",
+    "gcp",
+    "google-cloud",
+    "finops",
+    "infrastructure",
+    "bigquery",
+    "gke"
+  ],
+  "license": "MIT",
+  "logo": "./.cursor-plugin/assets/logo.png"
+}
